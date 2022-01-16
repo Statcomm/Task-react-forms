@@ -8,7 +8,12 @@ function Form() {
         <div className="form-page">
 
             <form>
-                {/* to do :  create your form here  */}
+           <input placeholder="First Name" inputid="name" onChange={handleChange}/>
+           <input placeholder="Last Name" inputid="lastName" onChange={handleChange}/>
+           <input placeholder="Phone Number" inputid="phoneNumber" onChange={handleChange}/>
+           <input placeholder="Power" inputid="power" onChange={handleChange}/>
+           <input placeholder="Email Address" inputid="emailAddress" onChange={handleChange}/>
+           <button type="submit"> Submit </button>
             </form>
             <SideInfo />
 
